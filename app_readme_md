@@ -1,0 +1,62 @@
+# Materials Process Optimizer
+
+## Overview
+
+The Materials Process Optimizer is a Streamlit application that helps users load, process, and visualize data files. Users can provide information about data files, specify features and target columns, and view a summary of the loaded data.
+
+## Directory Structure
+
+project/ │ ├── app.py ├── ui/ │   ├── init.py │   ├── data_input.py │   ├── feature_target_input.py │   ├── data_summary.py ├── data_loader.py ├── data_curator.py ├── data_object.py └── logo.png
+
+
+## app.py
+
+The main entry point for the application. It sets up the Streamlit interface, handles user inputs, processes data, and displays results.
+
+### Key Functions
+
+- **data_input_section**: Collects user inputs for data file information.
+- **feature_target_input_section**: Collects user inputs for feature and target columns, data types, and constraints.
+- **data_summary_section**: Displays a summary of the loaded data files.
+
+## ui/data_input.py
+
+Handles the data input section of the user interface.
+
+### Function
+
+- **data_input_section(input_container)**: Collects user inputs for data file information.
+
+## ui/feature_target_input.py
+
+Handles the feature and target input section of the user interface.
+
+### Function
+
+- **feature_target_input_section(input_container)**: Collects user inputs for feature and target columns, data types, and constraints.
+
+## ui/data_summary.py
+
+Handles the data summary section of the user interface.
+
+### Function
+
+- **data_summary_section(st, data_objects)**: Displays a summary of the loaded data files, allowing the user to select a file, control the number of rows displayed, and show/hide the summary.
+
+## data_loader.py
+
+Handles loading data files.
+
+## data_curator.py
+
+Handles data curation tasks such as unifying, stitching, and handling missing data.
+
+## data_object.py
+
+Defines the DataObject class that represents a data file.
+
+## How to Run
+
+1. Ensure you have Streamlit installed: `pip install streamlit`
+2. Run the application: `streamlit run app.py`
+3. Follow the instructions in the browser to interact with the application.

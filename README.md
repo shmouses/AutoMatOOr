@@ -6,9 +6,6 @@
 
 Welcome to the placeholder repository for AutoMatOOR, a Python package designed to democratize and centralize scalable solutions for automated materials optimization. This repository will be updated with the full package upon its official publication.
 
-## Background
-
-AutoMatOOR is developed by a team of researchers from the National Research Council Canada (NRC) located in Mississauga, ON, and Ottawa, ON. The core team includes Shayan Mousavi Masouleh, Luis Mejia Mendoza, Holly Fruehwald, Scott Smith, Dylan Perry, Ben Yu, and Robert Black.
 
 ## Correspondence
 

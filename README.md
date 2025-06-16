@@ -1,8 +1,10 @@
+![AutoMatOOR Logo](logo.png)
+
 # AutoMatOOR
 
 ## Automated Materials Optimization Orchestrator
 
-Welcome to the placeholder repository for AutoMatOOR, a groundbreaking Python package designed to democratize and centralize scalable solutions for automated materials optimization. This repository will be updated with the full package upon its official publication.
+Welcome to the placeholder repository for AutoMatOOR, a Python package designed to democratize and centralize scalable solutions for automated materials optimization. This repository will be updated with the full package upon its official publication.
 
 ## Background
 
